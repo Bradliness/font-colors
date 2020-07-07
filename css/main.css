@@ -1,0 +1,59 @@
+body, html {
+  text-align: center;
+  font-family:  Helvetica, Arial, sans-serif;
+  font-size: 20px;
+}
+
+section {
+  width: 75%;
+  margin: auto;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+
+
+/* --------Smartphones (portrait) ----------- */
+@media screen and (min-width:1px;) and (max-width: 640px;){
+   h1 {
+    color: #7b7d70;}
+    }
+   h2 {
+  color: #4eafb8;}
+   }
+   p {
+  color: #ff8641;}
+ }
+}
+ /* -----iPads (portrait) ----------- */
+
+ @media screen and (min-width: 641px;) and (max-width: 1024px;){
+  h1 {
+     color: #02cbd2;}
+   }
+  h2 {
+   color: #fcc02a;}
+   }
+  p {
+   color: #7b8f8e;}
+  }
+}
+  /* -------Desktops and laptops ----------- */
+
+  @media screen and (min-width:1025px;) and (max-width: 1224px;){
+    h1 {
+    color: #6e4b61;}
+      }
+    h2 {
+    color: #cabd61;}
+    }
+    p {
+    color: #c19e74;}
+    }
+   }
