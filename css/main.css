@@ -5,7 +5,7 @@ body, html {
 }
 
 section {
-  width: 75%;
+  width: 76%;
   margin: auto;
 }
 
@@ -20,40 +20,42 @@ h2 {
 
 
 /* --------Smartphones (portrait) ----------- */
-@media screen and (min-width:1px;) and (max-width: 640px;){
+@media screen and (min-width:0px) {
    h1 {
-    color: #7b7d70;}
-    }
+    color: #7b7d70;
+}
    h2 {
-  color: #4eafb8;}
+  color: #4eafb8;
    }
    p {
-  color: #ff8641;}
+  color: #ff8641;
  }
 }
+
  /* -----iPads (portrait) ----------- */
 
- @media screen and (min-width: 641px;) and (max-width: 1024px;){
+ @media screen and (min-width:780px) {
   h1 {
-     color: #02cbd2;}
+     color: #02cbd2;
    }
   h2 {
-   color: #fcc02a;}
+   color: #fcc02a;
    }
   p {
-   color: #7b8f8e;}
+   color: #7b8f8e;
   }
 }
+
   /* -------Desktops and laptops ----------- */
 
-  @media screen and (min-width:1025px;) and (max-width: 1224px;){
+  @media screen and (min-width:1180px) {
     h1 {
-    color: #6e4b61;}
+    color: #6e4b61;
       }
     h2 {
-    color: #cabd61;}
+    color: #cabd61;
     }
     p {
-    color: #c19e74;}
+    color: #c19e74;
     }
    }
